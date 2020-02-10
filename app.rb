@@ -2,8 +2,9 @@ require 'sinatra/base'
 
 class Bookmarks < Sinatra::Base
 
-    get('/') do
-        'Testing infrastructure working!'
+    get '/' do
+        'Hello World'
+        'Bookmark Manager'
     end
 
 end

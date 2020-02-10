@@ -1,0 +1,20 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/tobydawson/Projects/bookmarks/spec/features/app_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1581352186
+  }
+}
