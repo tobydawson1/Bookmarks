@@ -1,15 +1,19 @@
+require './lib/db_connection'
+
 class BookmarkHolder 
 
     attr_reader :bookmarks, :bookmark_store
 
     def initialize(bookmark)
+        @cursor = DBconnection.new('bookmark_manager', 'tobydawson')
         @bookmarks = bookmark 
     end
 
     def self.all
-        @bookmark_store = [
-            "www.google.com"
-        ]
+        @cursor.create_connection
+        result = @cursor.select_statement('SELECT * FROM bookmarks')
+        result.map { |bookmark| bookmark['url']}
+        @cursor.close_con
     end
 
     def self.create(bookmark)

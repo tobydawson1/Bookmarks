@@ -8,9 +8,18 @@
           1,
           null,
           1,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/tobydawson/Projects/bookmarks/spec/db_connection_spec.rb": {
+        "lines": [
           1,
           null,
-          null,
+          1,
           null,
           null
         ]
@@ -22,14 +31,14 @@
           1,
           null,
           1,
-          1,
-          1,
+          0,
+          0,
           null,
           null,
           1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           null,
           null,
           null,
@@ -37,6 +46,6 @@
         ]
       }
     },
-    "timestamp": 1581430277
+    "timestamp": 1581437224
   }
 }
