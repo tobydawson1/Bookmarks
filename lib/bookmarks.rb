@@ -4,9 +4,8 @@ class BookmarkHolder
 
     attr_reader :bookmarks, :bookmark_store, :cursor
 
-    def initialize(bookmark)
+    def initialize
         @cursor = DBconnection.new('bookmark_manager', 'tobydawson')
-        @bookmarks = bookmark 
     end
 
     def all
@@ -16,8 +15,8 @@ class BookmarkHolder
         result.map { |bookmark| bookmark['url']}
     end
 
-    def self.create(bookmark)
-        @bookmarks = BookmarkHolder.new(bookmark)
+    def self.create
+        @bookmarks = BookmarkHolder.new
     end
 
     def self.instance

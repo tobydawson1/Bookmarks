@@ -12,7 +12,7 @@ class Bookmarks < Sinatra::Base
     end
 
     get '/bookmarks' do
-        @bookmarks = BookmarkHolder.create("google")
+        @bookmarks = BookmarkHolder.create
         erb :index
     end
 
