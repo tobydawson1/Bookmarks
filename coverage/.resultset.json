@@ -5,23 +5,30 @@
         "lines": [
           1,
           null,
+          null,
+          1,
+          null,
+          null,
+          1,
           1,
           null,
           1,
-          0,
+          1,
+          1,
           null,
+          1,
+          null,
+          1,
+          1,
+          1,
           null,
           null,
           null
         ]
       },
-      "/Users/tobydawson/Projects/bookmarks/spec/db_connection_spec.rb": {
+      "/Users/tobydawson/Projects/bookmarks/spec/creating_bookmarks_spec.rb": {
         "lines": [
-          1,
-          null,
-          1,
-          null,
-          null
+
         ]
       },
       "/Users/tobydawson/Projects/bookmarks/spec/features/app_spec.rb": {
@@ -31,21 +38,61 @@
           1,
           null,
           1,
-          0,
-          0,
+          1,
+          1,
           null,
           null,
           1,
-          0,
-          0,
-          0,
+          1,
+          1,
           null,
           null,
           null,
           null
         ]
+      },
+      "/Users/tobydawson/Projects/bookmarks/spec/features/customisation_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/tobydawson/Projects/bookmarks/lib/customisation.rb": {
+        "lines": [
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/tobydawson/Projects/bookmarks/spec/viewing_bookmark_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1581437224
+    "timestamp": 1581679651
   }
 }

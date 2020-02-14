@@ -8,8 +8,7 @@ feature 'testing infrastructure' do
     end
 
     scenario 'able to view bookmarks' do
-        visit('/')
-        visit('/bookmarks')
+        visit('/bookmarks/new')
         expect(page).to have_content("www.google.com")
     end
 

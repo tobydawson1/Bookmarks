@@ -1,19 +1,31 @@
 require './lib/db_connection'
+require 'pg'
 
 class BookmarkHolder 
 
-    attr_reader :bookmarks, :bookmark_store, :cursor
+    attr_reader :bookmarks, :cursor
 
     def initialize
-        @cursor = DBconnection.new('bookmark_manager', 'tobydawson')
+        @cursor = DBconnection.new(db_name = 'bookmark_manager', user_name = 'tobydawson')
+        
+    end
+
+    def add(url)
+      
     end
 
     def all
+        if ENV['ENVIRONMENT'] == 'test'
+            connection = PG.connect(dbname: 'bookmark_manager_test')
+          else
+            connection = PG.connect(dbname: 'bookmark_manager')
+          end
         @cursor.create_connection
         result = @cursor.select_statement('SELECT * FROM bookmarks')
         @cursor.close_con
         result.map { |bookmark| bookmark['url']}
     end
+
 
     def self.create
         @bookmarks = BookmarkHolder.new

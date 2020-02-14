@@ -1,3 +1,7 @@
-<h1> Bookmarks </h1>
+<h1> bookmarks </h1>
 <br> 
-<h3> <%= @bookmarks.all %> </h3>
+<form action='/bookmarks' method="post">
+    <input type="text" name="bookmark">
+    <input type="submit" value='submit'>
+</form>
+<%= @bookmarks.all %>
