@@ -3,7 +3,7 @@
 Bookmark Manager
 =================
 
-[Task](#Task) | [Installation](#Installation) | [User Stories](#User Story) [Bowling — how does it work?](#Bowling) |
+[Task](#Task) | [Installation](#Installation) | [User Stories](#User Story) | [Bowling — how does it work?](#Bowling) |
 
 Technologies: Javascript, Jasmine, HTML, CSS
 
