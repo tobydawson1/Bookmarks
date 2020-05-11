@@ -9,8 +9,8 @@ Technologies: Javascript, Jasmine, HTML, CSS
 
 ## Task
 
-Web app that allows a user to store, add and access his/her bookmark
-​
+Web app that allows a user to store, add and access his/her bookmark. This is focussed around introducing your to data query's using databases to store URL's that can be accessed by the user.
+
 ## Table of Contents
 ​
 * [Description](#introduction)
@@ -55,20 +55,4 @@ As part of the system
 In order to keep privacy
 I would like users to only be able to access their bookmarks
 ​
-## Technologies
-​
-Ruby 2.6.3
-​
-## Launch
-​
-Will need help filling out this field. To be completed.
-​
-## Project Status
-​
-Work in progress:
-​
-* Completed step 1
-* No spec file for testing created yet
-​
-## Sources
-​
+
