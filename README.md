@@ -1,6 +1,6 @@
 # Bookmark Manager
 ​
-Web app that allows a user to store, add and access his/her bookmarks
+Web app that allows a user to store, add and access his/her bookmark
 ​
 ## Table of Contents
 ​
