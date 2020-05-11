@@ -1,7 +1,14 @@
 ## Makers Academy - Week 4 Pair Programming
 
-# Bookmark Manager
-​
+Bookmark Manager
+=================
+
+[Task](#Task) | [Installation](#Installation) | [Bowling — how does it work?](#Bowling) |
+
+Technologies: Javascript, Jasmine, HTML, CSS
+
+## Task
+
 Web app that allows a user to store, add and access his/her bookmark
 ​
 ## Table of Contents
