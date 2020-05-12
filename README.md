@@ -16,7 +16,7 @@ Web app that allows a user to store, add and access his/her bookmark. This is fo
 
 The website will have the following specification:
 
-Show a list of bookmarks
+*Show a list of bookmarks
 Add new bookmarks
 Delete bookmarks
 Update bookmarks
