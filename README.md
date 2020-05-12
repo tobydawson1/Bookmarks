@@ -3,21 +3,13 @@
 Bookmark Manager
 =================
 
-[Task](#Task) | [Installation](#Installation) | [User Stories](#User) | [Bowling — how does it work?](#Bowling) |
+[Task](#Task) | [Installation](#Installation) | [User Stories](#User) | Testing](#Testing) |
 
 Technologies: Javascript, Jasmine, HTML, CSS
 
 ## Task
 
 Web app that allows a user to store, add and access his/her bookmark. This is focussed around introducing your to data query's using databases to store URL's that can be accessed by the user.
-
-## Table of Contents
-​
-* [Description](#introduction)
-* [Technologies](#technologies)
-* [Launch](#launch)
-* [Project Status](#project-status)
-* [Sources](#sources)
 
 ## Description
 
@@ -70,3 +62,11 @@ In order to keep privacy
 I would like users to only be able to access their bookmarks
 ```
 
+## Testing
+
+Testing was done through the frameworks RSpec and Capybara
+
+```
+cd Bookmarks
+rspec
+```
