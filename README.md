@@ -22,11 +22,11 @@ Web app that allows a user to store, add and access his/her bookmark. This is fo
 ## Description
 
 ## <a name="User">User Stories</a>
-
+``
 As a user
 In order to pick my bookmark
 I want to see a list of my bookmarks
-
+``
 As a user
 In order to save a bookmark
 I want to be able to add to the list of bookmarks
