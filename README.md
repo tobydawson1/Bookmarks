@@ -3,7 +3,7 @@
 Bookmark Manager
 =================
 
-[Task](#Task) | [Installation](#Installation) | [User Stories](#User Stories) | [Bowling — how does it work?](#Bowling) |
+[Task](#Task) | [Installation](#Installation) | [User Stories](#User) | [Bowling — how does it work?](#Bowling) |
 
 Technologies: Javascript, Jasmine, HTML, CSS
 
@@ -18,10 +18,10 @@ Web app that allows a user to store, add and access his/her bookmark. This is fo
 * [Launch](#launch)
 * [Project Status](#project-status)
 * [Sources](#sources)
-​
+
 ## Description
-​
-## <a name="User Stories">User Stories</a>
+
+## <a name="User">User Stories</a>
 
 As a user
 In order to pick my bookmark
