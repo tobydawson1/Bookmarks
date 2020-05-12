@@ -27,13 +27,18 @@ As a user
 In order to pick my bookmark
 I want to see a list of my bookmarks
 ``
+
+``
 As a user
 In order to save a bookmark
 I want to be able to add to the list of bookmarks
+``
 
+``
 As a user
 In order to remove a bookmark
 I would like to be able to delete a bookmark
+``
 
 As a user
 In order to personalise my bookmarks
