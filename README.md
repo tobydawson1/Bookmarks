@@ -3,7 +3,7 @@
 Bookmark Manager
 =================
 
-[Task](#Task) | [Installation](#Installation) | [User Stories](#User) | Testing](#Testing) |
+[Task](#Task) | [Installation](#Installation) | [Funtional Description](#description) | [User Stories](#User) | Testing](#Testing) |
 
 Technologies: Javascript, Jasmine, HTML, CSS
 
@@ -11,7 +11,19 @@ Technologies: Javascript, Jasmine, HTML, CSS
 
 Web app that allows a user to store, add and access his/her bookmark. This is focussed around introducing your to data query's using databases to store URL's that can be accessed by the user.
 
-## Description
+
+## <a name="description">Functional Description</a>
+
+The website will have the following specification:
+
+Show a list of bookmarks
+Add new bookmarks
+Delete bookmarks
+Update bookmarks
+Comment on bookmarks
+Tag bookmarks into categories
+Filter bookmarks by tag
+Users are restricted to manage only their own bookmarks
 
 ## <a name="User">User Stories</a>
 ```
