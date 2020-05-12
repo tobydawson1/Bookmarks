@@ -3,7 +3,7 @@
 Bookmark Manager
 =================
 
-[Task](#Task) | [Installation](#Installation) | [Funtional Description](#description) | [User Stories](#User) | Testing](#Testing) |
+[Task](#Task) | [Installation](#Installation) | [Funtional Description](#description) | [User Stories](#User) | [Testing](#Testing) |
 
 Technologies: Javascript, Jasmine, HTML, CSS
 
